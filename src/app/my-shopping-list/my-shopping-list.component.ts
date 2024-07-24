@@ -13,7 +13,7 @@
 // 3. Implementar as funcionalidades (Parte já apresentada na aula [o que não souber, primeiro pesquisar nas fontes recomendadas: Fóruns, documentação, chatgpt; então, se não conseguir, me pedir ajuda {@Gabriel}]).
 
 import { Component } from '@angular/core';
-import { MainContentComponent } from "./main-content/main-content.component";
+import { MainContentComponent } from "./items/items.component";
 
 @Component({
   selector: 'app-my-shopping-list',
@@ -24,4 +24,5 @@ import { MainContentComponent } from "./main-content/main-content.component";
 })
 export class MyShoppingListComponent {
   listTitle = 'SHOPPING LIST'
+  listItems:string[] = ['Item 1', 'Item 2', 'Item 3', 'Item 4']
 }
