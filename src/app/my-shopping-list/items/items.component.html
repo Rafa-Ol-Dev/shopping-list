@@ -1,5 +1,9 @@
 <div>
-    <ul>
-        <li style="list-style-type: none;" *ngFor="let item of listItems">{{item}}</li>
+    <ul *ngFor="let item of listItems">
+        <li class="item">
+            {{ item }}
+            <span *ngIf="item === 'Leite'" class="alert"> (Item Importante!)</span>
+          </li>
+          
     </ul>
 </div>

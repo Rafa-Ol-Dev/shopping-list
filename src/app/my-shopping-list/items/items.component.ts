@@ -9,5 +9,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './items.component.scss'
 })
 export class MainContentComponent {
-  @Input() listItems!:string [];
+  @Input() listItems!: string [];
 }
